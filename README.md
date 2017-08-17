@@ -1,4 +1,8 @@
+[![Build Status](https://travis-ci.org/ignacio-chiazzo/ARKit.svg?branch=master)](https://travis-ci.org/ignacio-chiazzo/ARKit)
+
 # ARKit - Placing Virtual Objects in Augmented Reality
+
+ARKit project place virtual objects based on WWDC example project https://ignacio-chiazzo.github.io/ARKit/.
 
 Learn best practices for visual feedback, gesture interactions, and realistic rendering in AR experiences, as well as tips for building SceneKit-based AR apps.
 
@@ -83,7 +87,7 @@ Use the popover presentation (even on iPhone) for auxiliary view controllers to 
 For testing and debugging AR experiences, it helps to have a live visualization of the scene processing that ARKit performs. See the `showDebugVisuals` method in this project's `ViewController` class for world tracking visualization, and the `HitTestVisualization` class for a demonstration of ARKit's feature detection methods.
 
 
-##Best Practices and Limitations
+## Best Practices and Limitations
 
 
 World tracking is an inexact science. This process can often produce impressive accuracy, leading to realistic AR experiences. However, it relies on details of the device’s physical environment that are not always consistent or are difficult to measure in real time without some degree of error. To build high-quality AR experiences, be aware of these caveats and tips.
